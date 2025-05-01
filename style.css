@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-size: 20px;
+}
+
+.top{
+    top: 0;
+    background-color: rgb(231, 216, 197);
+    padding:  20px 50px 20px 50px;
+    color: black;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
+}
+
+.nav{
+    color: inherit;
+    list-style: none;
+    display: flex;
+    
+    
+   
+}
+.nav  li a{
+   margin: 10px;
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+   font-weight: 300;
+   
+}
+.top article{
+    font-size: 22px;
+    font-weight: 700;
+}
+.login{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 7px 25px;
+    font-size: 22px;
+}
+header{
+    background-color: antiquewhite;
+    display: flex;
+    position: relative;
+    padding: 30px;
+    padding-top: 70px;
+    width: 100%;
+    align-items: center;
+}
+.menu{
+   width: 50%;
+   
+}
+.menu h1{
+    font-size: 50px;
+    font-weight: 800;
+    align-items: center;
+}
+.menu p {
+    margin: 20px 0;
+    line-height: 1.3;
+    line-break:loose;
+}
+.buttons{
+    margin: 10px;
+   display: flex;
+   gap: 15px;
+   
+
+}
+.buttons a{
+    text-decoration: none;
+    padding: 7px 23px;
+}
+ .shop{
+    background-color: palevioletred;
+     color: white;
+     border: 2px solid palevioletred;
+     border-radius: 40px;
+}
+.explore{
+    border: 2px solid palevioletred;
+    border-radius: 40px;
+    color: palevioletred;
+}
+.logo{
+    width: 50%;
+}
+.camellia{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 241, 229);
+    position: relative;
+    width: 100%;
+    padding: 30px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    width: 50%;
+}
+.info h2{
+    padding: 20px 0;
+    font-size: 43px;
+}
+.info  p{
+    padding: 15px 0;
+    line-height: 1.3;
+}
+.camellia img{
+    width: 30%;
+    padding-right: 50px;
+}
